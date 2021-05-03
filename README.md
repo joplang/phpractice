@@ -5,7 +5,7 @@ This is just a basic PHP MVC framework to practice classes and learn coding when
 
 # Installation
 - cd ~/
-- cd /<your-sites-folder>/php-practice
+- cd /your-sites-folder/php-practice
 
 - npm install
 - composer install
