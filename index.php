@@ -5,6 +5,8 @@ use App\Libraries\Request;
 
 require 'App/Core/bootstrap.php';
 
+require 'App/Core/core.php';
+
 $route = Router::load('routes.php')->direct(Request::uri(), Request::method());
 
 require $route['uri'];
