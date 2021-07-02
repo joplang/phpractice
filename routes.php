@@ -1,5 +1,5 @@
 <?php
 
-$router->get('', 'App/Http/Controllers/HomeController.php@index');
-$router->get('home', 'App/Http/Controllers/HomeController.php');
+$router->get('', 'app/Http/Controllers/HomeController.php@index');
+$router->get('home', 'app/Http/Controllers/HomeController.php');
 
